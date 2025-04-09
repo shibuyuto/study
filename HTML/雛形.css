@@ -1,0 +1,87 @@
+/* style.css - スタイルシートの基本雛形 */
+
+/* =============== 基本的なリセットや全体設定 =============== */
+
+/* body要素全体に基本的なスタイルを適用 */
+body {
+    font-family: sans-serif; /* フォントの種類を指定 (ゴシック体) */
+    line-height: 1.6;      /* 行の高さを指定 (読みやすくするため) */
+    color: #333;           /* 基本の文字色 (濃い灰色) */
+    background-color: #f4f4f4; /* 背景色 (薄い灰色) */
+    margin: 20px;          /* ページ全体の周りの余白 */
+}
+
+/* =============== 要素セレクタ (タグ名で指定) =============== */
+
+/* すべてのpタグ (段落) の下の余白を設定 */
+p {
+    margin-bottom: 15px; /* 段落の下に少しスペースを空ける */
+}
+
+/* すべてのaタグ (リンク) のスタイル */
+a {
+    color: #007bff;       /* リンクの色 (青) */
+    text-decoration: none; /* 下線を消す */
+}
+
+/* リンクにマウスカーソルが乗った時のスタイル */
+a:hover {
+    text-decoration: underline; /* マウスが乗ったら下線を表示 */
+    color: #0056b3;           /* 少し濃い青にする */
+}
+
+/* すべてのulタグ (順序なしリスト) のスタイル */
+ul {
+    list-style: disc; /* リストマーカーを黒丸にする (デフォルト) */
+    padding-left: 20px; /* リストの左側の余白 (インデント) */
+}
+
+/* =============== IDセレクタ (#で指定) =============== */
+
+/* id="main-title" が付いた要素 (h1) のスタイル */
+#main-title {
+    color: #dc3545;       /* 文字色 (赤系) */
+    border-bottom: 2px solid #dc3545; /* 下に赤い線を引く */
+    padding-bottom: 10px; /* 線と文字の間に余白 */
+}
+
+/* =============== クラスセレクタ (.で指定) =============== */
+
+/* class="section-title" が付いた要素 (h2) のスタイル */
+.section-title {
+    color: #17a2b8;       /* 文字色 (青緑系) */
+    border-left: 5px solid #17a2b8; /* 左側に太い線を引く */
+    padding-left: 10px;  /* 線と文字の間に余白 */
+    margin-top: 30px;    /* 上の要素との間に余白を多めに取る */
+}
+
+/* class="introduction" が付いた要素 (最初のp) のスタイル */
+.introduction {
+    font-weight: bold; /* 文字を太字にする */
+    font-size: 1.1em;  /* 少し文字を大きくする */
+}
+
+/* class="sample-image" が付いた要素 (img) のスタイル */
+.sample-image {
+    border: 1px solid #ccc; /* 画像に薄い灰色の枠線を付ける */
+    padding: 5px;          /* 枠線と画像の間に少し余白 */
+    background-color: #fff; /* 画像の背景を白にする (枠線との区別) */
+    display: block;        /* 画像をブロック要素のように扱い、前後に改行が入るようにする */
+    margin-top: 10px;      /* 画像の上に少し余白 */
+}
+
+/* class="info-box" が付いた要素 (div) のスタイル */
+.info-box {
+    background-color: #e9ecef; /* 背景色 (少し濃い灰色) */
+    border: 1px solid #ced4da;   /* 枠線 */
+    padding: 15px;             /* 内側の余白 */
+    margin-top: 20px;          /* 上の要素との間に余白 */
+    border-radius: 5px;        /* 角を少し丸くする */
+}
+
+/* =============== CSSコメント =============== */
+/*
+  CSSのコメントはこのように書きます。
+  複数行にわたるコメントも可能です。
+  /* コメントの中にコメントは書けません */
+*/
