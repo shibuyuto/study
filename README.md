@@ -18,5 +18,5 @@
    pip install -r requirements.txt
 3. Jupyter Notebookを起動します。
    jupyter notebook
-##ライセンス
+## ライセンス
 このプロジェクトは、MITライセンスの下で公開されています。詳細はLICENSEファイルをご覧ください
