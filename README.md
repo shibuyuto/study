@@ -16,7 +16,7 @@
    git clone https://github.com/shibuyuto/study.git
 2. 必要な依存関係をインストールします。
    pip install -r requirements.txt
-4. Jupyter Notebookを起動します。
+3. Jupyter Notebookを起動します。
    jupyter notebook
-   ライセンス
+##ライセンス
 このプロジェクトは、MITライセンスの下で公開されています。詳細はLICENSEファイルをご覧ください
